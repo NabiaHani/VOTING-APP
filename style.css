@@ -1,0 +1,134 @@
+body {
+    background-image: url(./images/bg-img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.main-container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+}
+
+.title {
+    color: #FFF;
+    font-size: 25px !important;
+    margin-top: 0;
+    text-shadow: 1px 1px 3px #000000a1;
+}
+
+span {
+    color: #A5E3E1;
+}
+
+.input-section {
+    margin-top: 20px;
+}
+
+#friendName {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    /* font-family: 'Poppins', sans-serif !important; */
+}
+
+#friendName:focus {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 18px #555;
+    outline: 0 none;
+}
+
+#addFriendBtn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-image: url(./images/btn-pic.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    border-radius: 5px;
+    color: #000000;
+    cursor: pointer;
+    font-family: 'Dancing Script', cursive;
+}
+
+.friends-list {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.friends-list th,
+.friends-list td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.friends-list th {
+    color: #fff;
+}
+
+.friends-list tr:hover {
+    background-color: #f0f0f0;
+}
+
+table tr {
+    border-radius: 10px !important;
+    box-shadow: 0 0 10px -2px rgba(0, 0, 0, 0.12);
+    overflow: hidden !important;
+    margin-bottom: 10px !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+table tr td {
+    width: 100% !important;
+    border: unset !important;
+}
+
+table tr td:last-child {
+    text-align: end !important;
+    padding-right: 20px !important;
+}
+
+table tr td:first-child {
+    padding-left: 20px !important;
+}
+
+.main-container {
+    backdrop-filter: blur(15px);
+    background: #0C0A3C;
+}
+
+.friends-list th,
+.friends-list td {
+    color: #fff;
+}
+
+table tr {
+    background: #ffffff8c !important;
+}
+
+table tr:hover {
+    background: #fff !important;
+}
+
+input#candidateName {
+    background: #fff !important;
+}
+
+table tr:hover td {
+    color: #000;
+}
